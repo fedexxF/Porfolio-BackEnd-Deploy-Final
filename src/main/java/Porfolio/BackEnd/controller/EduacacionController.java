@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/educacion")
-@CrossOrigin(origins ="https://porfolio-10e59.web.app")
+
 public class EduacacionController {
 
     private  final EducacionService educacionService;
