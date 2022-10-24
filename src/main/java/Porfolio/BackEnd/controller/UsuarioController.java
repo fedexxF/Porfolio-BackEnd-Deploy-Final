@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/usuario")
+@CrossOrigin(origins ="https://porfolio-10e59.web.app")
 public class UsuarioController {
 
     private  final UsuarioService usuarioService;

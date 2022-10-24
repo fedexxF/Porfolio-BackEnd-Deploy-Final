@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/proyectos")
+@CrossOrigin(origins ="https://porfolio-10e59.web.app")
 public class ProyectosController {
 
         private  final ProyectosService proyectosService;
