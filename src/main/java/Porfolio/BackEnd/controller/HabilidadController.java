@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/habilidad")
+@CrossOrigin(origins ="http://porfolio-10e59.web.app")
 public class HabilidadController {
 
     private final HabilidadService habilidadService;

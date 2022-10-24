@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins =("http://porfolio-10e59.web.app/") )
 @RequestMapping("/body")
+@CrossOrigin(origins ="http://porfolio-10e59.web.app" )
 public class BodyController {
     private final BodyService bodyService;
 

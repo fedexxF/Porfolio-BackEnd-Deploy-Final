@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/footer")
+@CrossOrigin(origins ="http://porfolio-10e59.web.app")
 public class FooterController {
     private  final FooterService footerService;
 
