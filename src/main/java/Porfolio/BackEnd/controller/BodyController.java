@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/body")
-@CrossOrigin(origins ="http://porfolio-10e59.web.app" )
+@CrossOrigin(origins ="https://porfolio-10e59.web.app" )
 public class BodyController {
     private final BodyService bodyService;
 
