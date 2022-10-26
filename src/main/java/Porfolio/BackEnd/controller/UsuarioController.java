@@ -6,10 +6,10 @@ import Porfolio.BackEnd.service.UsuarioService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
+@CrossOrigin(origins ="https://porfolio-10e59.web.app")
 @RestController
 @RequestMapping("/usuario")
-@CrossOrigin(origins ="https://porfolio-10e59.web.app")
+
 public class UsuarioController {
 
     private  final UsuarioService usuarioService;

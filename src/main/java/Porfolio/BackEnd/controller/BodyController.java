@@ -9,10 +9,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@CrossOrigin(origins ="https://porfolio-10e59.web.app")
 @RestController
 @RequestMapping("/body")
-@CrossOrigin(origins ="https://porfolio-10e59.web.app")
 public class BodyController {
     private final BodyService bodyService;
 

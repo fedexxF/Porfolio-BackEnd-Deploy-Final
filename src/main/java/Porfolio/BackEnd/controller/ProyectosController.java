@@ -9,10 +9,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-
+@CrossOrigin(origins ="https://porfolio-10e59.web.app")
 @RestController
 @RequestMapping("/proyectos")
-@CrossOrigin(origins ="https://porfolio-10e59.web.app")
+
 public class ProyectosController {
 
         private  final ProyectosService proyectosService;
